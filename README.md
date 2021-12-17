@@ -7,7 +7,7 @@
 
 # 2、模型构建思路及调优过程
 
-* 模型使用paddleseg中的segformer网络
+* 模型使用paddleseg中的SegFormer_B3网络
 * 数据集划分，训练集、测试机比例8：2
 * 训练轮数160000iters
 * 160000的checkpoint在线测试精度64.06232，提交时未保留checkpoint
