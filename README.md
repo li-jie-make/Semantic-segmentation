@@ -1,5 +1,5 @@
 # Semantic-segmentation
-飞桨常规赛：遥感影像地块分割 - 10月第6名方案
+飞桨常规赛：遥感影像地块分割 - 11月第3名方案
 # 1、代码内容说明
 
 * main.ipynb文件为训练、测试、推理的代码文件。
@@ -9,5 +9,5 @@
 
 * 模型使用paddleseg中的segformer网络
 * 数据集划分，训练集、测试机比例8：2
-* 训练轮数24000iters
-* 24000的checkpoint在线测试精度57.40718，提交时未保留checkpoint
+* 训练轮数160000iters
+* 160000的checkpoint在线测试精度64.06232，提交时未保留checkpoint
